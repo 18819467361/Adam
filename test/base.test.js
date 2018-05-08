@@ -14,7 +14,7 @@ const removeItemByIndex = Tool.removeItemByIndex
 const jest = require('jest')
 describe('query test group', () => {
   test('query 1', () => {
-    expect(query('hello', '?hello=aaa')).toBe('aaaa')
+    expect(query('hello', '?hello=aaa')).toBe('aaa')
   })
   test('query 2', () => {
     expect(query('hello', '?hello=aaa&bye=bbb')).toBe('aaa')
