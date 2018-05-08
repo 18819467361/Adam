@@ -8,8 +8,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "",
-      "pre-push": ""
+      "pre-commit": "npm run coverage",
+      "pre-push": "npm run coverage"
     }
   },
   "devDependencies": {
