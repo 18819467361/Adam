@@ -2,7 +2,7 @@
   "name": "adam-yjy",
   "version": "1.0.1",
   "description": "十个常用函数。",
-  "main": "base.js",
+  "main": "dist/base.es5.js",
   "dependencies": {
     "babel-plugin-transform-runtime": "^6.23.0"
   },

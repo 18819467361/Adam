@@ -7,7 +7,7 @@ module.exports = {
   entry: './src/base.js',
   output: {
     libraryTarget: 'umd',
-    filename: 'bundle.js',
+    filename: 'base.es5.js',
     path: path.resolve(__dirname, './dist')
   },
   module: {
